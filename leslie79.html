@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de JavaScript</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var palabra=prompt('Intente ingresar una palbara que no termine en vocal','');
+var patron=/[aeiouAEIOUáéíóú]$/;
+if (patron.test(palabra))
+alert('Felicidades, gano el juego');
+else
+alert('La palabra no finaliza con vocal');
+</script>
+
+</body>
+</html>
